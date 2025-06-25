@@ -6,8 +6,8 @@ import lombok.ToString;
 
 @Data
 @ToString
-@Entity
 @Table(name = "students")
+@Entity
 public class StudentJdbc {
 
     @Id
